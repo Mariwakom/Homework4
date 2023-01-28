@@ -1,9 +1,6 @@
 // Задание 1
-let i = 1;
-let n = Number(prompt("Сколько раз вам сказать привет?"));
-while (i <= 2) {
-  alert('Привет');
-  i++;
+for (let i = 1; i <=2; i++) {
+  console.log("Привет");
 }
 
 //Задание 2
@@ -12,8 +9,8 @@ for (let h = 1; h <=5; h++) {
 }
 
 //Задание 3
-for ( let k = 7; k <= 22; k++)
-console.log(k);
+for ( let k = 7; k <= 22; k++) {
+console.log(k)};
 
 //Задание 4
 let obj = {
@@ -26,7 +23,7 @@ for (let key in obj) {
 }
 
 //Задание 5
-for (n = 1000, num = 0; n >= 50; num++, n /=2 ) {
+for (let n = 1000, num = 0; n >= 50; num++, n /=2 ) {
   console.log(n);
   console.log(`Количество итераций - ${num}`);
 }
